@@ -6,7 +6,7 @@
 
 以下教程适用于已安装好Ubuntu18.04和ROS Melodic的电脑：
 
-- MacOS的Ubuntu安装可以参考https://www.hellotech.com/guide/for/how-to-install-linux-on-mac（注：可以登陆Ubuntu官网https://ubuntu.com/download/alternative-downloads下载镜像，注意要选择18.04版本，在“Past releases and other flavours”中）
+- MacOS的Ubuntu安装可以参考https://www.hellotech.com/guide/for/how-to-install-linux-on-mac （注：可以登陆Ubuntu官网https://ubuntu.com/download/alternative-downloads 下载镜像，注意要选择18.04版本，在“Past releases and other flavours”中）
 - ROS的安装可参考http://wiki.ros.org/melodic/Installation/Ubuntu
 
 
@@ -20,7 +20,7 @@
   cd catkin_ws/src                #进入catkin_ws下的src目录
   ```
 
-- 可以通过链接https://github.com/SLiu2000/Hawkbot-Setup下载hawkbot文件夹至linux电脑端，或者可以通过百度网盘（链接: https://pan.baidu.com/s/1BYN4PW4TZ-J_O2tw77INlw  密码: 31nk）进行下载。下载完成后将hawkbot package添加进src文件夹中。
+- 可以通过链接https://github.com/SLiu2000/Hawkbot-Setup 下载hawkbot文件夹至linux电脑端，或者可以通过百度网盘（链接: https://pan.baidu.com/s/1BYN4PW4TZ-J_O2tw77INlw  密码: 31nk）进行下载。下载完成后将hawkbot package添加进src文件夹中。
 
 - 下载完成后cd至catkin_ws下，在terminal中输入`catkin_make`进行编译
 
@@ -39,7 +39,6 @@
   source /opt/ros/melodic/setup.bash
   source ~/catkin_ws/devel/setup.bash
   
-  #将ROBOT_IP修改为ROS机器人的IP
   export ROBOT_IP=10.42.0.1
   export ROS_MASTER_URI=http://$ROBOT_IP:11311
   
