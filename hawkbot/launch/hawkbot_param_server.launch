@@ -1,0 +1,5 @@
+
+<launch>
+  <node name="hawkbot_param_server" pkg="hawkbot" type="dynamic_reconfigure_server.py" output="screen"/>
+
+</launch>
